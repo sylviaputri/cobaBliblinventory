@@ -1,0 +1,44 @@
+header{
+    height: 10%;
+    margin-bottom: 20px;
+}
+
+header nav{
+    background-color:white;
+    color: #0095da;
+}
+
+header nav a{
+    color: #0095da;
+}
+header nav img#imgLogo{
+    margin-top: 5px;
+    width: 220px;
+}
+
+header nav #menuDropdownEmployee{
+    width: 308px;
+    top: 100% !important;
+}
+
+header nav input{
+    color: #0095da;
+}
+
+header nav #imgPerson{
+    width: 47px;
+    background-color: #0095da;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+header nav #inputSearch{
+    border: 2px solid #0095da;
+    border-radius: 20px;
+    width: 500px;
+}
+
+#iconMenu{
+    color: #0095da;
+    font-size: 40px;
+}

@@ -1,0 +1,55 @@
+html, body{
+    background-color: #0095da;
+    height: 100%;
+}
+
+article{
+    height: auto;
+}
+
+div.whiteBoard{
+    background-color: white;
+    margin: 15px;
+    height: 100%;
+}
+
+.iconBack{
+    font-size: 50px;
+}
+
+.judulPage{
+    margin-top: 0px;
+}
+
+#imgProduk{
+    margin: 10px auto;
+    display: block;
+}
+
+button.btnBlue{
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    background-color: #0095da;  
+    vertical-align: middle;
+    border: none;
+}
+
+button#btnPinjam{
+    margin-left: 40px;
+}
+
+table#infoProduk{
+    margin: 20px 10px 20px 40px;
+    font-size: 18px;
+    width: inherit;
+}
+
+table#infoProduk tr, table#infoProduk td{
+    border: none;
+}
+
+table#infoProduk td.tdInfoData{
+    font-weight: bold;
+}

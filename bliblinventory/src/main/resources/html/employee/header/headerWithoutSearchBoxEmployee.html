@@ -1,0 +1,24 @@
+<script>
+        $(".dropdown-trigger").dropdown({ hover: true, constrainWidth: false });
+    </script>
+    
+    <nav class="nav-wrapper">
+            <nav>
+                <div class="nav-wrapper">
+                    <img class="brand-logo" id="imgLogo" src="../../images/logo2.png"/>
+                    <ul class="right hide-on-med-and-down">
+                        <li><img class="circle responsive-img" id="imgPerson" src="../../images/iconPerson.png"/></li>
+                        <li><a class="dropdown-trigger" data-target="menuDropdownEmployee"><i class="material-icons" id="iconMenu">menu</i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </nav>
+    
+        <!-- utk menu drop down nya -->
+        <ul id="menuDropdownEmployee" class="dropdown-content">
+            <li><a href="#!">Daftar produk inventaris</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Daftar Permintaan Peminjaan saya</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Buat Permintaan Peminjaman secara Manual</a></li>
+        </ul>

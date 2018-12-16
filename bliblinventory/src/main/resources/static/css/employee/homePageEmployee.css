@@ -1,0 +1,73 @@
+body{
+    background-color: #0095da;
+}
+
+.styledSelect {
+    background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+    height: 29px;
+    overflow: hidden;
+    background-color: white;
+    margin-left: 170px; 
+    margin-top: 9px;
+    border-radius: 5px; 
+    width: 150px;
+    background-color: #ffffff; 
+    padding: 0px;
+ }
+ 
+ .styledSelect select {
+     display: block;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    padding: 3px; /* If you add too much padding here, the options won't show in IE */
+    width: 200px;
+ }
+
+article div#forSearching div#sortingElement, article div#forSearching div#categoriesElement{
+    margin-bottom: 0px;
+    height: 40px;
+}
+
+article div#forSearching div#sortingElement #iconSorting{
+    color: white;
+}
+
+article div#forSearching div#sortingElement #lblSorting{
+    color: white; 
+    width: 200px;
+}
+
+article div#forSearching div#categoriesElement #iconCategories{
+    color: white;
+}
+
+article div#forSearching div#categoriesElement #lblCategories{
+    color: white; 
+}
+
+article div#daftarProduk{
+    margin-top: 30px;
+}
+
+article div#daftarProduk div.card-content{
+    padding: 0px 8px 5px 8px;
+    text-align: center;
+}
+
+article div#daftarProduk div.card-content .namaProduk, article div#daftarProduk div.card-content .kodeProduk{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width:inherit;
+}
+
+article div#daftarProduk div.card-action{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width:inherit;
+}

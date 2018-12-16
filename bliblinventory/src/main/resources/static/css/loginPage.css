@@ -1,0 +1,87 @@
+body, html {
+    height: 100%;
+}
+
+body{
+    background: url(../images/backgroundLoginPage.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img#logo{
+    width: 900px;
+    margin: calc( (100vh - 255px) / 2 ) auto;
+}
+
+.logo{
+    height: 100%;
+    width: 70%;
+    float: left;
+
+}
+
+.form-login{
+    height: 100%;
+    width: 30%;
+    padding: 5px;
+    float: left;
+    padding: 0px 10px;
+}
+
+p.instructions{
+    padding-top: 50px;
+    font-size: 30px;
+    margin-bottom: 90px;
+}
+
+input#inputUsername, input#inputPassword{
+    width: 95%;
+    height: 50px;
+    opacity: 0.8;
+    border: 2px solid #f2f2f2;
+    border-radius: 60px;
+    font-size: 25px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 25px;
+}
+
+input#inputUsername:focus, input#inputPassword:focus{
+    border: 2px solid rgba(0, 149, 218, 0.5);
+}
+
+a#lupaPassword{
+    color: #0095da;
+    font-size: 18px;
+    text-align: left;
+}
+
+.framing{
+    margin: calc((100vh - 501px) / 2) auto;
+    background: white;
+    height: 80%;
+    border-radius: 20px;
+}
+
+button#btnLogin{
+    width: 260px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border-radius: 41px;
+    border: solid 2px #ffffff;
+    background-color: #0095da;  
+    vertical-align: middle;
+}
+
+button#btnLogin:hover{
+    box-shadow:  0px 0px 0px 2px rgba(0, 149, 218, 0.5);
+    background-color: #0077ae;
+}

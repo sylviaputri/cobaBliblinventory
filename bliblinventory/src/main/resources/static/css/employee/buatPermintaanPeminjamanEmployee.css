@@ -1,0 +1,64 @@
+html, body{
+    background-color: #0095da;
+    height: 100%;
+}
+
+article{
+    height: auto;
+}
+
+div.whiteBoard{
+    background-color: white;
+    margin: 15px;
+    height: 100%;
+}
+
+.iconBack{
+    font-size: 50px;
+}
+
+.judulPage{
+    margin-top: 0px;
+}
+
+button.btnBlue{
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    background-color: #0095da;  
+    vertical-align: middle;
+    border: none;
+}
+
+table#formPeminjamanProduk{
+    margin: 20px 10px 20px 40px;
+    font-size: 18px;
+    width: inherit;
+}
+
+table#formPeminjamanProduk tr, table#formPeminjamanProduk td{
+    border: none;
+}
+
+table#formPeminjamanProduk td.tdInfoData, table#formPeminjamanProduk td.tdInfoData input{
+    font-weight: bold;
+}
+
+table#formPeminjamanProduk #gambarProduk{
+    width: 250px;
+}
+
+table#formPeminjamanProduk td.tdInfoData input, table#formPeminjamanProduk td.tdInfoData textarea{
+    border: 2px solid #0095da;
+    border-radius: 5px;
+}
+
+table#formPeminjamanProduk td.tdInfoData textarea{
+    height: 80px;
+}
+
+button#btnKirim{
+    margin-top: -10px;
+    margin-right: 20px;
+}
